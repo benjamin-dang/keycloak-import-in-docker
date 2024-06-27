@@ -17,7 +17,7 @@ This repository provides a comprehensive guide on how to start Keycloak with imp
 
 ## Prerequisites
 
-- Keycloak installed, preferably matching the version of the import files.
+- image of Keycloak, preferably matching the version of the import files.
 - Import files of a Keycloak instance.
 - Docker or Podman installed on your machine.
 
