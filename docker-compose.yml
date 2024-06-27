@@ -1,0 +1,16 @@
+version: '3.8'
+
+services:
+  keycloak:
+    image: quay.io/keycloak/keycloak:19.0.3
+    container_name: test-keycloak
+    ports:
+      - "8024:8080"
+    environment:
+      KEYCLOAK_ADMIN: admin
+      KEYCLOAK_ADMIN_PASSWORD: admin
+      DB_VENDOR: h2
+    volumes:
+      - ./volume:/opt/keycloak/data/import
+      - ./h2:/opt/keycloak/data/h2
+    command: -v start-dev ${IMPORT_COMMAND}
