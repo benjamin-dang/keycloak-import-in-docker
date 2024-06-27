@@ -26,7 +26,7 @@ This repository provides a comprehensive guide on how to start Keycloak with imp
 First, clone this repository:
 
 ```bash
-git clone <linkofrepo>
+git clone https://github.com/benjamin-dang/keycloak-import-in-docker.git
 ```
 
 Then open the directory in your terminal or your preferred IDE, and launch a terminal within that directory.
