@@ -21,6 +21,8 @@ This repository provides a comprehensive guide on how to start Keycloak with imp
 - Import files of a Keycloak instance.
 - Docker or Podman installed on your machine.
 
+**Note:** in this guide I used the quay.io/keycloak/keycloak:19.0.3 image for the container
+
 ## Getting Started
 
 First, clone this repository:
@@ -71,7 +73,7 @@ Replace the placeholder **{PATH_TO_FOLDER_THAT_CONTAINS_IMPORT_FILES}** with the
 ```yaml
 volumes:
       - ./import:/opt/keycloak/data/import
-```
+```  
 
 ## Start Container
 
