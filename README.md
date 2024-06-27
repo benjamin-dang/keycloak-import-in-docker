@@ -95,7 +95,7 @@ This command will also create an **h2** folder in your directory, which is used 
 ```
 podman compose up
 ```
-or, for docker
+or, if using Docker
 
 ```
 docker-composu up
