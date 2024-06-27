@@ -89,7 +89,19 @@ IMPORT_COMMAND='--import-realm' docker-compose up
 
 This command will also create an **h2** folder in your directory, which is used to persist Keycloak data between container restarts.
 
-**Note:** Execute this command only during the initial startup (once).
+**Note:** Execute this command only during the initial startup (once). For any following start ups you should use the normal:
+```
+podman compose up
+```
+or, for docker
+
+```
+docker-composu up
+```
+
+Ignore the warning that IMPORT_COMMAND is not set and defaults to empty string, because this is what we want on the following start ups.
+
+
 
 ## Open Keycloak in Browser
 
