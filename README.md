@@ -183,8 +183,6 @@ docker cp {CONTAINER_ID}:/export/. ./kc-export-files/
 
 This command will copy the export files to your current directory, placing them in a folder named `kc-export-files`.
 
-**Note:** Ensure the folder contains only `.json` files. Remove any other files or folders.
-
 ## Topic Related Info
 
 For further reading and detailed documentation, refer to the following resources:
